@@ -1,27 +1,18 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Services from "./components/Services";
-import Features from "./components/Features";
-import Testimonials from "./components/Testimonials";
-import FAQs from "./components/FAQs";
-import Footer from "./components/Footer";
-import "slick-carousel/slick/slick.css"; 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import TermOfServicePage from "./pages/TermOfServicePage";
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
-    <div className="App">
-      <main>
-        <Navbar />
-        <Header />
-        <Services />
-        <Features />
-        <Testimonials />
-        <FAQs />
-        <Footer />
-      </main>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/term" element={<TermOfServicePage />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,7 +1,9 @@
 import { useState } from "react";
-import faqs from "./data/FaqsData";
+import {FaqsData} from "../data/Data";
 
 const Faqs = () => {
+  const faqs = FaqsData;
+
   const [isOpen, setIsOpen] = useState({});
 
   const toggleFaq = (id) => {
@@ -14,7 +16,7 @@ const Faqs = () => {
   return (
     <section
       id="faq"
-      className="relative min-h-auto flex flex-col md:flex-row items-start bg-slate-50 overflow-hidden py-20 px-16"
+      className="relative min-h-auto flex flex-col md:flex-row items-start bg-gray-100 overflow-hidden py-20 md:px-16"
     >
       <div className="w-full md:w-1/2 px-4 md:px-6">
         <h2 className="text-5xl font-bold">FAQs</h2>
@@ -37,7 +39,7 @@ const Faqs = () => {
                 >
                   <span>{faq.title}</span>
                   <svg
-                    className="fill-indigo-500 shrink-0 ml-8"
+                    className="fill-orange-500 shrink-0 ml-8"
                     width="16"
                     height="16"
                     xmlns="http://www.w3.org/2000/svg"

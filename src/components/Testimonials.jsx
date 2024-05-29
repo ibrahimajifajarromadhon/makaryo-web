@@ -1,7 +1,9 @@
 import Slider from "react-slick";
-import testimonials from "./data/TestimonialsData";
+import {TestimonialsData} from "../data/Data";
 
 const Testimonials = () => {
+  const testimonials = TestimonialsData;
+
   const settings = {
     dots: true,
     infinite: true,
@@ -36,7 +38,7 @@ const Testimonials = () => {
         {testimonials.map((testimonial, i) => (
           <div
             key={i}
-            className="max-w-sm rounded-2xl overflow-hidden shadow-lg shadow-orange-500 m-4 hover:bg-orange-500 hover:text-white transition-transform duration-500 ease-in-out hover:scale-105"
+            className="max-w-80 lg:max-w-sm rounded-2xl overflow-hidden shadow-lg shadow-orange-500 m-4 hover:bg-orange-500 hover:text-white transition-transform duration-500 ease-in-out hover:scale-105"
           >
             <div className="px-6 py-4">
               <img src={testimonial.image} alt={testimonial.name} className="mx-auto my-5 rounded-full" />

@@ -2,12 +2,12 @@ import logoWhite from "../assets/img/logo-white.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-700 text-white px-16 py-10">
-      <div className="container mx-auto px-5 grid grid-cols-3 gap-4">
+    <footer className="bg-gray-700 text-white md:px-16 px-5 py-10">
+      <div className="container mx-auto md:px-5 grid grid-cols-3 gap-4">
         <div>
           <div className="flex items-center text-white">
             <a href="#home">
-              <img src={logoWhite} alt="logo" className="h-8 mr-3" />
+              <img src={logoWhite} alt="logo" className="sm:h-8 sm:mr-3" />
             </a>
           </div>
           <h3 className="text-md font-bold mt-8 mb-3">PT. Makaryo Indonesia</h3>
@@ -49,6 +49,9 @@ const Footer = () => {
           <p className="text-sm md:text-base">
             &copy; {new Date().getFullYear()} Makaryo. All rights reserved.
           </p>
+          <a href="/term" className="hover:text-orange-400">
+            <p className="text-sm md:text-base py-2">Terms of Service</p>
+          </a>
         </div>
       </div>
     </footer>
