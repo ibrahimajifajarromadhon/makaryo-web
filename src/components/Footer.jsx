@@ -43,6 +43,11 @@ const Footer = () => {
                 FAQs
               </a>
             </li>
+            <li className="mb-2">
+              <a href="/founder" className="hover:text-orange-400">
+                Founder
+              </a>
+            </li>
           </ul>
         </div>
         <div>
@@ -51,9 +56,6 @@ const Footer = () => {
           </p>
           <a href="/term" className="hover:text-orange-400">
             <p className="text-sm md:text-base py-2">Terms of Service</p>
-          </a>
-          <a href="/founder" className="hover:text-orange-400">
-            <p className="text-sm md:text-base">Founder</p>
           </a>
         </div>
       </div>

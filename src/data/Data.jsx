@@ -131,38 +131,49 @@ const FaqsData = [
 
 const FoundersData = [
   {
-    
     name: "Ibrahim Aji Fajar Romadhon",
     nim: "21.12.2201",
     image: ibrahim,
-    ig: "https:instagram.com",
-    linkedin: "",
-    github: "",
-    fb:""
-  },
-  {
-    name: "Muhammad Afif Fathurrohman",
-    nim: "21.12.2227",
-    image: apip,
-    ig: "https:instagram.com",
-  },
-  {
-    name: "Muhammad Al Fauzan",
-    nim: "21.12.2254",
-    image: fauzan,
-    ig: "https:instagram.com",
+    ig: "https://www.instagram.com/ibrahimaji.fajar/",
+    linkedin: "https://www.linkedin.com/in/ibrahim-aji-fajar-r/",
+    github: "https://github.com/ibrahimajifajarromadhon",
+    fb:"https://web.facebook.com/search/top/?q=ibrahim%20aji"
   },
   {
     name: "Aliefangga Harwa Nasir",
     nim: "21.12.2231",
     image: angga,
-    ig: "https:instagram.com",
+    ig: "https://www.instagram.com/haaliefangga_/",
+    linkedin: "https://www.linkedin.com/in/aliefangga-harwa-nasir/",
+    github: "https://github.com/anggaxvi",
+    fb:"https://www.facebook.com/haaliefangga/?locale=id_ID"
+  },
+  {
+    name: "Muhammad Al Fauzan",
+    nim: "21.12.2254",
+    image: fauzan,
+    ig: "https://www.instagram.com/fauzann02?igsh=MW5yd3ZxaDJnMTd0aw==",
+    linkedin: "https://www.linkedin.com/in/muhammad-alfauzan-19682026a/",
+    github: "https://github.com/Muhammadalfauzan",
+    fb:"https://www.facebook.com/profile.php?id=61559962335082"
+  },
+  {
+    name: "Muhammad Afif Fathurrohman",
+    nim: "21.12.2227",
+    image: apip,
+    ig: "https://www.instagram.com/m_afffiff/",
+    linkedin: "https://www.linkedin.com/in/muhammad-afif-b738a52b9/",
+    github: "https://github.com/apipcu",
+    fb:"https://web.facebook.com/afifzero/"
   },
   {
     name: "Shobarudin",
     nim: "21.12.2209",
     image: udin,
-    ig: "https:instagram.com",
+    ig: "https://www.instagram.com/alghozii_zy/",
+    linkedin: "https://www.linkedin.com/in/shobarudin-alghozi-550163217?trk=contact-info",
+    github: "https://github.com/alghoziii",
+    fb:"https://m.facebook.com/alghozi.bowadict/"
   },
 ];
 

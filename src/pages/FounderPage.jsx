@@ -33,7 +33,7 @@ const FounderPage = () => {
 
             <a href={founder.linkedin}>
               <FontAwesomeIcon
-                className="size-10 m-3 text-blue-500hover:text-blue-500 transition-transform duration-500 ease-in-out hover:scale-125"
+                className="size-10 m-3 text-blue-500 hover:text-blue-500 transition-transform duration-500 ease-in-out hover:scale-125"
                 icon={faLinkedin}
               />
             </a>
