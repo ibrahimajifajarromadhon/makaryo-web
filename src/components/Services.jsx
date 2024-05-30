@@ -4,7 +4,7 @@ const Services = () => {
   const services = ServicesData;
 
   return (
-    <section id="services" className="py-20 bg-slate-50 pl-20 pr-20">
+    <section id="services" className="py-10 bg-slate-50 pl-20 pr-20">
       <h2 className="text-5xl font-bold mb-10 text-center">Our Services</h2>
       <div className="container mx-auto flex flex-wrap justify-center">
         {services.map((service, i) => (

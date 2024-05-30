@@ -2,6 +2,7 @@ import Services from "../components/Services";
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
 import FAQs from "../components/FAQs";
+import Team from "../components/Team";
 import MainLayout from "../layouts/MainLayout";
 import CustomerServiceButton from "../components/CustomerServiceButton";
 
@@ -12,6 +13,7 @@ const HomePage = () => {
       <Features />
       <Testimonials />
       <FAQs />
+      <Team/>
       <CustomerServiceButton/>
     </MainLayout>
   );

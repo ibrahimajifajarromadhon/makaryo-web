@@ -129,7 +129,7 @@ const FaqsData = [
   }
 ];
 
-const FoundersData = [
+const TeamsData = [
   {
     name: "Ibrahim Aji Fajar Romadhon",
     nim: "21.12.2201",
@@ -158,7 +158,7 @@ const FoundersData = [
     fb:"https://www.facebook.com/profile.php?id=61559962335082"
   },
   {
-    name: "Muhammad Afif Fathurrohman",
+    name: "Muhammad Afif F",
     nim: "21.12.2227",
     image: apip,
     ig: "https://www.instagram.com/m_afffiff/",
@@ -177,4 +177,4 @@ const FoundersData = [
   },
 ];
 
-export { ServicesData, FeaturesData, TestimonialsData, FaqsData, FoundersData };
+export { ServicesData, FeaturesData, TestimonialsData, FaqsData, TeamsData };

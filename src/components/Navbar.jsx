@@ -22,7 +22,7 @@ const Navbar = () => {
                     <a href="#features" className="px-3 py-2 rounded hover:text-orange-500">Features</a>
                     <a href="#testimonials" className="px-3 py-2 rounded hover:text-orange-500">Testimonials</a>
                     <a href="#faq" className="px-3 py-2 rounded hover:text-orange-500">FAQs</a>               
-                    <a href="/founder" className="px-3 py-2 rounded hover:text-orange-500 xl:mr-20 lg:mr-10">Founder</a>               
+                    <a href="#team" className="px-3 py-2 rounded hover:text-orange-500 xl:mr-20 lg:mr-10">Team</a>               
                     <Download/>
                 </div>
             </div>

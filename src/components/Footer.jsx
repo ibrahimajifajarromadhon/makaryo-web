@@ -44,8 +44,8 @@ const Footer = () => {
               </a>
             </li>
             <li className="mb-2">
-              <a href="/founder" className="hover:text-orange-400">
-                Founder
+              <a href="#team" className="hover:text-orange-400">
+                Team
               </a>
             </li>
           </ul>
