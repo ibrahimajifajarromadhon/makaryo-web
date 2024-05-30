@@ -7,10 +7,10 @@ const Footer = () => {
         <div>
           <div className="flex items-center text-white">
             <a href="#home">
-              <img src={logoWhite} alt="logo" className="sm:h-8 sm:mr-3" />
+              <img src={logoWhite} alt="Makaryo Logo" />
             </a>
           </div>
-          <h3 className="text-md font-bold mt-8 mb-3">PT. Makaryo Indonesia</h3>
+          <h3 className="text-md font-bold mt-5 mb-3">PT. Makaryo Indonesia</h3>
           <p className="text-sm">
             Jl. Ring Road Utara, Ngringin, Condongcatur, Kec. Depok, Kabupaten
             Sleman, Daerah Istimewa Yogyakarta 55281
@@ -51,6 +51,9 @@ const Footer = () => {
           </p>
           <a href="/term" className="hover:text-orange-400">
             <p className="text-sm md:text-base py-2">Terms of Service</p>
+          </a>
+          <a href="/founder" className="hover:text-orange-400">
+            <p className="text-sm md:text-base">Founder</p>
           </a>
         </div>
       </div>

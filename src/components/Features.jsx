@@ -11,7 +11,7 @@ const Features = () => {
         <div className="w-full md:w-1/2">
           <img
             src={img}
-            alt="Feature image"
+            alt="Features Image"
             className="w-full h-full object-cover rounded-e-full"
           />
         </div>

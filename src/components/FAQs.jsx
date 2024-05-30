@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {FaqsData} from "../data/Data";
+import { FaqsData } from "../data/Data";
 
 const Faqs = () => {
   const faqs = FaqsData;
@@ -20,7 +20,9 @@ const Faqs = () => {
     >
       <div className="w-full md:w-1/2 px-4 md:px-6">
         <h2 className="text-5xl font-bold">FAQs</h2>
-        <p className="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <p className="py-5">
+          Pertanyaan yang Sering Diajukan untuk Aplikasi Pemesanan Jasa Tukang
+        </p>
       </div>
       <div className="w-full md:w-2/3 max-w-2xl px-4 md:px-6">
         {faqs.map((faq, i) => (
@@ -37,7 +39,7 @@ const Faqs = () => {
                   aria-controls={i}
                   onClick={() => toggleFaq(i)}
                 >
-                  <span>{faq.title}</span>
+                  <span>{faq.question}</span>
                   <svg
                     className="fill-orange-500 shrink-0 ml-8"
                     width="16"
@@ -66,7 +68,7 @@ const Faqs = () => {
                 }`}
               >
                 <div className="overflow-hidden">
-                  <p className="pb-3">{faq.description}</p>
+                  <p className="pb-3">{faq.answer}</p>
                 </div>
               </div>
             </div>
