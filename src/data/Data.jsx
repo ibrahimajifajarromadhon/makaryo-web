@@ -11,6 +11,7 @@ import apip from "../assets/img/apip.jpg";
 import fauzan from "../assets/img/fauzan.png";
 import angga from "../assets/img/angga.png";
 import udin from "../assets/img/udin.png";
+import img from "../assets/img/img.png";
 
 const ServicesData = [
   {
@@ -177,4 +178,22 @@ const TeamsData = [
   },
 ];
 
-export { ServicesData, FeaturesData, TestimonialsData, FaqsData, TeamsData };
+const PreviewImage = [
+  {
+    image: img,
+  },
+  {
+    image: img,
+  },
+  {
+    image: img,
+  },
+  {
+    image: img,
+  },
+  {
+    image: img,
+  },
+];
+
+export { ServicesData, FeaturesData, TestimonialsData, FaqsData, TeamsData, PreviewImage };

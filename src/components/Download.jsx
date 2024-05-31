@@ -1,11 +1,10 @@
-import file from '../assets/files.pdf';
 import { MdDownloadForOffline } from "react-icons/md";
 
 const Download = () => {
   return (
-    <a href={file} download="file.pdf" className='download'>
+    <a href="/download" className='download'>
       <button className="text-white font-bold py-2 px-4 rounded-full hover:bg-orange-500 flex items-center justify-center">
-        Download Apps
+        Download App
         <MdDownloadForOffline className="h-6 w-6 ml-3" />
       </button>
     </a>

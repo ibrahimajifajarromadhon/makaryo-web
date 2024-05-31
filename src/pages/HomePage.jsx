@@ -7,6 +7,7 @@ import MainLayout from "../layouts/MainLayout";
 import CustomerServiceButton from "../components/CustomerServiceButton";
 
 const HomePage = () => {
+
   return (
     <MainLayout>
       <Services />
