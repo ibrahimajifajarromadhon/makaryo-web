@@ -5,6 +5,7 @@ import FAQs from "../components/FAQs";
 import Team from "../components/Team";
 import MainLayout from "../layouts/MainLayout";
 import CustomerServiceButton from "../components/CustomerServiceButton";
+import BackToTopButton from "../components/BackToTopButton";
 
 const HomePage = () => {
 
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Testimonials />
       <FAQs />
       <Team/>
+      <BackToTopButton/>
       <CustomerServiceButton/>
     </MainLayout>
   );
