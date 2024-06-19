@@ -11,7 +11,12 @@ import apip from "../assets/img/apip.jpg";
 import fauzan from "../assets/img/fauzan.png";
 import angga from "../assets/img/angga.png";
 import udin from "../assets/img/udin.png";
-import img from "../assets/img/img.png";
+import login from "../assets/img/login.jpeg";
+import home from "../assets/img/home.jpeg";
+import kategori from "../assets/img/kategori.jpeg";
+import riwayat from "../assets/img/riwayat.jpeg";
+import chat from "../assets/img/chat.jpeg";
+import profil from "../assets/img/profil.jpeg";
 
 const ServicesData = [
   {
@@ -180,19 +185,22 @@ const TeamsData = [
 
 const PreviewImage = [
   {
-    image: img,
+    image: login,
   },
   {
-    image: img,
+    image: home,
   },
   {
-    image: img,
+    image: kategori,
   },
   {
-    image: img,
+    image: riwayat,
   },
   {
-    image: img,
+    image: chat,
+  },
+  {
+    image: profil,
   },
 ];
 

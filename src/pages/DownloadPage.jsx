@@ -75,12 +75,13 @@ const DownloadPage = () => {
         </div>
         <Slider {...settings} className="container mx-auto">
           {preview.map((p, i) => (
-            <img
-              key={i}
-              src={p.image}
-              alt="oke"
-              className=" rounded-2xl overflow-hidden"
-            />
+            <div key={i} className="px-2">
+              <img
+                src={p.image}
+                alt="oke"
+                className=" rounded-2xl overflow-hidden shadow-black shadow-md"
+              />
+            </div>
           ))}
         </Slider>
         <div className="mt-8">
