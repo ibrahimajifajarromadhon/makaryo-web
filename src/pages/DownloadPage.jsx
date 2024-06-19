@@ -79,7 +79,7 @@ const DownloadPage = () => {
               <img
                 src={p.image}
                 alt="oke"
-                className=" rounded-2xl overflow-hidden shadow-black shadow-md"
+                className=" rounded-xl overflow-hidden shadow-black shadow-md"
               />
             </div>
           ))}
