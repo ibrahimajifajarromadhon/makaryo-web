@@ -11,12 +11,12 @@ import apip from "../assets/img/apip.jpg";
 import fauzan from "../assets/img/fauzan.png";
 import angga from "../assets/img/angga.png";
 import udin from "../assets/img/udin.png";
-import login from "../assets/img/login.jpeg";
-import home from "../assets/img/home.jpeg";
-import kategori from "../assets/img/kategori.jpeg";
-import riwayat from "../assets/img/riwayat.jpeg";
-import chat from "../assets/img/chat.jpeg";
-import profil from "../assets/img/profil.jpeg";
+import login from "../assets/img/login.jpg";
+import home from "../assets/img/home.jpg";
+import kategori from "../assets/img/kategori.jpg";
+import riwayat from "../assets/img/riwayat.jpg";
+import chat from "../assets/img/chat.jpg";
+import profil from "../assets/img/profile.jpg";
 
 const ServicesData = [
   {
